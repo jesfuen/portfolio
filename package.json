@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@tsparticles/engine": "^3.8.1",
+    "astro-particles": "^2.10.0"
+  }
+}

@@ -1,0 +1,68 @@
+---
+import GithubIcon from "./icons/Github.astro";
+import LinkedinIcon from "./icons/Linkedin.astro";
+import InstagramIcon from "./icons/Instagram.astro";
+import MailIcon from "./icons/Mail.astro";
+---
+
+<!-- Crear un dock para la parte inferior con mis redes sociales (github, instagram, linkedin...), no se pueden usar de react -->
+
+<footer class="dock fixed bottom-0 left-0 right-0 bg-gray-800 text-white p-4 flex justify-center gap-6 h-16 w-48 items-center ">
+    <a  href="https://www.linkedin.com/in/jesfuen-gg-86463132b/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="LinkedIn"
+        class="
+            
+            text-gray-200            /* color base antes de hover */
+            transition-colors        /* permite suavizar el cambio de color */
+            hover:text-purple-400      /* color en hover */
+            hover:scale-110          /* escala un 110% al pasar el ratón */
+            duration-200             /* duración de la transición en ms */
+    ">
+        <LinkedinIcon />
+    </a>
+    <a href="https://www.github.com/jesfuen/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="LinkedIn"
+        class="
+            
+            text-gray-200            /* color base antes de hover */
+            transition-colors        /* permite suavizar el cambio de color */
+            hover:text-purple-400      /* color en hover */
+            hover:scale-110          /* escala un 110% al pasar el ratón */
+            duration-200             /* duración de la transición en ms */>
+    ">
+        <GithubIcon />
+    </a>
+    <a href="https://www.instagram.com/jesfuen_gg/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Instagram"
+        class="
+            
+            text-gray-200            /* color base antes de hover */
+            transition-colors        /* permite suavizar el cambio de color */
+            hover:text-purple-400      /* color en hover */
+            hover:scale-110          /* escala un 110% al pasar el ratón */
+            duration-200             /* duración de la transición en ms */>
+    ">
+        <InstagramIcon />
+    </a>
+
+    <a href="mailto:jesusdelafuente2002@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Email"
+        class="
+            
+            text-gray-200            /* color base antes de hover */
+            transition-colors        /* permite suavizar el cambio de color */
+            hover:text-purple-400      /* color en hover */
+            hover:scale-110          /* escala un 110% al pasar el ratón */
+            duration-200             /* duración de la transición en ms */>
+    ">
+        <MailIcon />
+    </a>
+</footer>
